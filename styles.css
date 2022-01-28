@@ -1,8 +1,151 @@
 .header {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-evenly;
+    
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.heroMain {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    text-align: left;
+}
+
+.secheader {
+    background-color: #1f2937;
+    padding: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:left;
+    color: #e5e7eb;
+}
+
+.subt {
+    display: flex;
+    text-align: right;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.body1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.randinfo {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    font-size: 18px;
+}
+
+.b1 {
+    background-color: #3882f6;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #e5e7eb;
+    size: 25px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
     
 }
+.quote.qt {
+    display: flex;
+    text-align: end;
+    font-weight: bold;
+}
+
+.advert {
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    flex-direction: row;
+
+    
+}
+
+.advert h4 {
+    display: flex;
+    font-weight: bold;
+    color: #e5e7eb;
+    
+    align-items: center;
+}
+
+.advert p {
+    display: flex;
+    color:#e5e7eb;
+    
+    align-items: flex-end;
+
+}
+
+.advert button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    border-radius: 5px;
+    height: fit-content;
+    align-items: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1f2937;
+    padding: 24px;
+    color: #e5e7eb;
+}
+
